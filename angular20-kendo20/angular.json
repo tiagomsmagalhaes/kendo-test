@@ -22,6 +22,9 @@
           "options": {
             "outputPath": "../../docs/angular20-kendo20",
             "browser": "src/main.ts",
+            "polyfills": [
+              "@angular/localize/init"
+            ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
