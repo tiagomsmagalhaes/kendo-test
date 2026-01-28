@@ -39,7 +39,7 @@ jobs:
       - name: Build Angular 16 app
         run: |
           cd angular16-kendo12
-          npm run build -- --base-href /kumdo-test/angular16-kendo12/
+          npm run build
 
       - name: Install dependencies for Angular 20 app
         run: |
@@ -49,7 +49,7 @@ jobs:
       - name: Build Angular 20 app
         run: |
           cd angular20-kendo20
-          npm run build -- --base-href /kumdo-test/angular20-kendo20/
+          npm run build
 
       - name: Prepare docs directory
         run: |
